@@ -6,5 +6,27 @@
         <link rel="stylesheet" href="./style/style.css" />
         <title>QR code component</title>
     </head>
-    <body></body>
+    <body>
+        <main>
+            <div class="qrcode">
+                <picture class="qrcode__image">
+                    <source
+                        media="(min-width:600px)"
+                        srcset="./images/image-qr-code.png"
+                    />
+                    <img
+                        src="./images/image-qr-code.png"
+                        alt="qr code with blue background"
+                    />
+                </picture>
+                <div class="qrcode__improve--text">
+                    Improve your front-end skills by building projects
+                </div>
+                <div class="qrcode__description">
+                    Scan the QR code to visit Frontend Mentor and take your
+                    coding skills to the next level
+                </div>
+            </div>
+        </main>
+    </body>
 </html>

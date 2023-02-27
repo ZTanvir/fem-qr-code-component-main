@@ -77,3 +77,21 @@ h6 {
 #__next {
     isolation: isolate;
 }
+body {
+    display: grid;
+    place-items: center;
+    background-color: var(--light-gray);
+}
+.qrcode {
+    padding: 1rem;
+    background-color: var(--white);
+    font-size: 0.9375rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: grid;
+    gap: 1rem;
+}
+.qrcode__image {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
